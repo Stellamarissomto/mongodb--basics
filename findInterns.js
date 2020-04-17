@@ -48,7 +48,19 @@ const doc = [ {movie: "The Banker", year: "2020", rating: 8},
         console.log(res);
         db.close();
       });
-    });
+
+
+      // all my collection 
+      dbo.collection("myMovies").find({}).toArray(function(err, res) {
+        if (err) throw err;
+        console.log(res);
+        db.close();
+      
+
+
+      });
 
 
 
+
+      });
