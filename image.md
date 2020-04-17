@@ -1,4 +1,4 @@
-Result of interns.js
+# Result of interns.js
 ![node task](assests/interns.js_result.png)
 
 result of first document
